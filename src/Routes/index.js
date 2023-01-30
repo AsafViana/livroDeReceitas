@@ -6,7 +6,7 @@ const Stack = createNativeStackNavigator()
 
 export default  function Routes(){
     return(
-        <Stack.Navigator >
+        <Stack.Navigator>
             <Stack.Screen name='Lista' options={{headerShown: false}} component={Lista}/>
             <Stack.Screen name='NovaReceita' options={{headerShown: false}} component={NovaReceita}/>
         </Stack.Navigator>
